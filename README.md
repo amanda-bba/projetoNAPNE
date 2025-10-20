@@ -15,7 +15,7 @@ O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a 
 - [Critérios de Aceitação](docs/criterios_aceitacao.md)
 
 ## Status
-O devido projeto se encontra em fase de desenvolvimento. 
+O projeto se encontra em fase de desenvolvimento. 
 
 ##Equipe
 Amanda Bispo Barros de Araújo
