@@ -9,7 +9,7 @@ O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a 
 - `assets/` - Imagens e diagramas do projeto
 
 ## Documentação
-- [Casos de Uso](docs/casos_de_uso.md)
+- [Casos de Uso](docs/casos_de_uso)
 - [Requisitos](docs/requisitos.md)
 - [Histórias de Usuário](docs/historia_usuario.md)
 - [Critérios de Aceitação](docs/Criterios_aceitação.md)
