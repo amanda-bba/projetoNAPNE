@@ -11,7 +11,7 @@ O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a 
 ## Documentação
 - [Casos de Uso](docs/casos_de_uso.md)
 - [Requisitos](docs/requisitos.md)
-- [Histórias de Usuário](docs/historias_usuario.md)
+- [Histórias de Usuário](docs/historia_usuario.md)
 - [Critérios de Aceitação](docs/criterios_aceitacao.md)
 
 ## Status
