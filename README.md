@@ -1,4 +1,4 @@
-# projetoNAPNE
+# Projeto NAPNE
 
 ## Descrição
 O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a fim de melhorar cada vez mais seu desempenho, participação e inclusão no ambiente escolar. Focando em adicionar formas diversificadas para cada necessidade, tendo como ponto principal a inclusão e apoio de maneira mais eficiente.
