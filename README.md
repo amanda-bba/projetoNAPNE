@@ -17,7 +17,7 @@ O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a 
 ## Status
 O projeto se encontra em fase de desenvolvimento. 
 
-##Equipe
+## Equipe
 Amanda Bispo Barros de Araújo
 Emanuel Kayran
 Maisa Bezerra Azarias 
