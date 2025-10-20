@@ -1,3 +1,5 @@
+###Casos de Uso Funcionais (RF)
+
 ##US01 – Realizar Login
 
 Ator: Usuário
@@ -36,8 +38,9 @@ Desejo: Criar, editar e excluir cronogramas de provas e compromissos
 
 Objetivo: Manter os alunos atualizados
 
-⚙️ Casos de Uso Não Funcionais (RNF)
-US06 – Interface Intuitiva
+##Casos de Uso Não Funcionais (RNF)
+
+##US06 – Interface Intuitiva
 
 Ator: Usuário comum
 Desejo: Ter uma interface simples e intuitiva
