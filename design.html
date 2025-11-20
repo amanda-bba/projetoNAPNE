@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paleta de Cor e Tipografia - NAPNE</title>
+    <style>
+        /* Define a tipografia base para o corpo do documento */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0; /* Cor de fundo suave (fora da paleta para contraste) */
+            color: #000000;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Estilização para o contêiner principal */
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Estilização dos cabeçalhos */
+        h1 {
+            color: #00843d; /* Cor principal de cabeçalho */
+            font-size: 2.5em;
+            border-bottom: 2px solid #7ed957;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            color: #c8102e; /* Cor de destaque */
+            font-size: 1.8em;
+            margin-top: 25px;
+        }
+
+        /* Estilização para a seção de cores */
+        .color-palette {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .color-item {
+            width: 150px;
+            text-align: center;
+        }
+
+        .color-swatch {
+            width: 100%;
+            height: 100px;
+            border: 1px solid #000000;
+            border-radius: 4px;
+            margin-bottom: 5px;
+        }
+
+        /* Estilização para a seção de tipografia */
+        .typography-example {
+            border: 1px solid #000000;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+
+        .titulo {
+            font-size: 3em;
+            font-weight: bold;
+            color: #00843d;
+        }
+
+        .subtitulo {
+            font-size: 2em;
+            font-weight: 500;
+            color: #c8102e;
+        }
+
+        .texto {
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        /* Cores específicas */
+        .c00843d { background-color: #00843d; }
+        .c7ed957 { background-color: #7ed957; }
+        .cc8102e { background-color: #c8102e; }
+        .cffffff { background-color: #ffffff; border-color: #ccc; } /* Adiciona borda sutil para o branco */
+        .c000000 { background-color: #000000; }
+        .c5170ff { background-color: #5170ff; }
+
+        /* Estilização para o link de voltar */
+        .voltar {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 15px;
+            background-color: #5170ff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Paleta de Cor e Tipografia - NAPNE</h1>
+
+        <h2>Paleta de Cores</h2>
+        <div class="color-palette">
+            <div class="color-item">
+                <div class="color-swatch c00843d"></div>
+                <strong>#00843d</strong> (Verde Principal)
+            </div>
+            <div class="color-item">
+                <div class="color-swatch c7ed957"></div>
+                <strong>#7ed957</strong> (Verde Secundário)
+            </div>
+            <div class="color-item">
+                <div class="color-swatch cc8102e"></div>
+                <strong>#c8102e</strong> (Vermelho Destaque)
+            </div>
+            <div class="color-item">
+                <div class="color-swatch cffffff"></div>
+                <strong>#ffffff</strong> (Branco)
+            </div>
+            <div class="color-item">
+                <div class="color-swatch c000000"></div>
+                <strong>#000000</strong> (Preto)
+            </div>
+            <div class="color-item">
+                <div class="color-swatch c5170ff"></div>
+                <strong>#5170ff</strong> (Azul Destaque)
+            </div>
+        </div>
+
+        <h2>Tipografia - Arial</h2>
+        <div class="typography-example">
+            <p class="titulo">Título (Bold)</p>
+            <p class="subtitulo">Subtítulo (Médio)</p>
+            <p class="texto">Texto (Normal)</p>
+            <hr>
+            <p><strong>Exemplo de Alfabeto:</strong></p>
+            <p class="texto">Aa, Bb, Cc, Dd, Ee, Ff, Gg, Hh, Ii, Jj, Kk, Ll, Mm, Nn, Oo, Pp, Qq, Rr, Ss, Tt, Uu, Vv, Ww, Xx, Yy, Zz</p>
+        </div>
+
+        <a href="../index.html" class="voltar">Voltar ao início</a>
+    </div>
+</body>
+</html>
