@@ -1,32 +1,154 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <title>Projeto NAPNE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto NAPNE</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <style>
+    html, body { height: 100%; margin: 0; }
+    body { display: flex; flex-direction: column; }
+    main { flex: 1; }
+  </style>
 </head>
 
 <body>
-    <h1>Projeto NAPNE</h1>
-    <p>
-    O projeto NAPNE tem como objetivo ajudar alunos com condições específicas, a fim 
-    de melhorar cada vez mais seu desempenho, participação e inclusão no ambiente 
-    escolar. Focando em adicionar formas diversificadas para cada necessidade, 
-    tendo como ponto principal a inclusão e apoio de maneira mais eficiente.
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Projeto NAPNE</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#requisitos">Requisitos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#historias">Histórias de Usuário</a></li>
+          <li class="nav-item"><a class="nav-link" href="#criterios">Critérios de Aceitação</a></li>
+          <li class="nav-item"><a class="nav-link" href="#equipe">Equipe</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <h1 class="text-center mb-4">Projeto NAPNE</h1>
+    <p class="lead text-center">
+      O Projeto NAPNE tem como objetivo apoiar alunos com necessidades específicas, promovendo inclusão,
+      acessibilidade e melhor desempenho escolar por meio de ferramentas adaptáveis.
     </p>
 
-    <h2>Equipe:</h2>
-        <p>Amanda Bispo Barros de Araújo, Emanuel Kayram e Maisa Bezerra Azarias</p>
-    
-    <a href="docs/requisitos.md"><h2>Requisitos</h2></a>
-   
-    <a href="docs/historia_usuario.md"><h2>Histórias de Usuário</h2></a>
+    <hr>
+    <section id="objetivo" class="mt-4">
+      <h3>🎯 Objetivo do Projeto</h3>
+      <p>
+        Desenvolver um aplicativo acessível para auxiliar alunos atendidos pelo NAPNE, oferecendo recursos
+        personalizados de organização, acessibilidade e comunicação entre alunos, professores, responsáveis e equipe de apoio.
+      </p>
+    </section>
 
-    <br>
-    <h2>Diagrama de Classe</h2>
-    <a href="assets/Diagrama de classe.drawio.png"><img src="assets/Diagrama de classe.drawio.png" height="750"></a>
+    <section id="publico" class="mt-4">
+      <h3>👥 Público-Alvo</h3>
+      <ul>
+        <li>Alunos com necessidades educacionais específicas</li>
+        <li>Professores</li>
+        <li>Responsáveis</li>
+        <li>Equipe NAPNE</li>
+      </ul>
+    </section>
 
-    <br>
-    <h2>Diagrama de Caso de Uso</h2>
-    <a href="assets/Diagrama_de_caso_de_uso.png"><img src="assets/Diagrama_de_caso_de_uso.png" height="750"></a>
+    <section id="elicitação" class="mt-4">
+      <h3>📌 Técnica de Elicitação Utilizada</h3>
+      <p>
+        A técnica escolhida foi a <strong>entrevista</strong>, realizada com Manuela (setor NAPNE), permitindo compreender de forma
+        clara as necessidades dos alunos e identificar recursos essenciais para o aplicativo.
+      </p>
+    </section>
 
+    <section id="requisitos" class="mt-5">
+      <h2>📄 Requisitos</h2>
+
+      <h4 class="mt-4">Requisitos Funcionais</h4>
+      <ul>
+        <li>Cadastro e seleção de perfil conforme condição do aluno.</li>
+        <li>Criação, edição e exclusão de cronogramas.</li>
+        <li>Acessibilidade personalizada (voz, leitores de tela, legendas).</li>
+        <li>Compartilhamento de informações com responsáveis e NAPNE.</li>
+        <li>Área exclusiva para professores enviarem atividades e avisos.</li>
+      </ul>
+
+      <h4 class="mt-4">Requisitos Não Funcionais</h4>
+      <ul>
+        <li>Conformidade com diretrizes de acessibilidade (WCAG).</li>
+        <li>Interface simples e intuitiva.</li>
+        <li>Disponível para Android e iOS.</li>
+        <li>Segurança e proteção dos dados.</li>
+        <li>Sistema estável e escalável.</li>
+      </ul>
+    </section>
+
+    <section id="historias" class="mt-5">
+      <h2>📘 Histórias de Usuário</h2>
+      <p>Alguns exemplos:</p>
+      <ul>
+        <li><strong>US01:</strong> Como usuário, desejo realizar login para acessar a plataforma.</li>
+        <li><strong>US02:</strong> Como usuário, quero selecionar a condição do aluno para adaptar o app.</li>
+        <li><strong>US04:</strong> Como professor, quero postar atividades e avisos.</li>
+        <li><strong>US05:</strong> Como membro do NAPNE, quero visualizar o cronograma do aluno.</li>
+      </ul>
+    </section>
+
+    <section id="criterios" class="mt-5">
+      <h2>✔ Critérios de Aceitação</h2>
+      <ul>
+        <li>O perfil só pode ser cadastrado se todos os campos obrigatórios forem preenchidos.</li>
+        <li>A interface deve adaptar-se automaticamente conforme a condição escolhida.</li>
+        <li>Mensagens claras devem aparecer em caso de erro ou ausência de recurso.</li>
+        <li>Compartilhamento deve ser configurável e seguro.</li>
+      </ul>
+    </section>
+
+    <section id="status" class="mt-5">
+      <h2>📌 Status Atual</h2>
+      <p>O projeto se encontra em <strong>fase de desenvolvimento</strong>.</p>
+    </section>
+
+    <section id="equipe" class="mt-5 mb-5">
+      <h2>👨‍💻 Equipe</h2>
+      <ul>
+        <li>Amanda Bispo Barros de Araújo</li>
+        <li>Emanuel Kayram</li>
+        <li>Maisa Bezerra Azarias</li>
+      </ul>
+    </section>
+      <section id="docs" class="mt-5">
+      <h2>📁 Documentação e Arquivos</h2>
+      <ul>
+        <li><a href="docs/requisitos.md">Requisitos do Projeto</a></li>
+        <li><a href="docs/historia_usuario.md">Histórias de Usuário</a></li>
+      </ul>
+
+      <h3 class="mt-4">📊 Diagrama de Classe</h3>
+      <a href="assets/Diagrama de classe.drawio.png">
+        <img src="assets/Diagrama de classe.drawio.png" class="img-fluid mb-4">
+      </a>
+
+      <h3>📈 Diagrama de Caso de Uso</h3>
+      <a href="assets/Diagrama_de_caso_de_uso.png">
+        <img src="assets/Diagrama_de_caso_de_uso.png" class="img-fluid mb-4">
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-auto">
+    <p>Projeto NAPNE — 2025</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
+</html>
