@@ -1,4 +1,4 @@
-Requisitos Funcionais
+- Requisitos Funcionais
 
 O sistema deve permitir que o usuário realize login.
 
@@ -24,7 +24,7 @@ O sistema deve permitir que o servidor do NAPNE visualize os alunos cadastrados.
 
 O sistema deve permitir que o servidor do NAPNE registre, atualize e publique relatórios de acompanhamento dos alunos.
 
-Requisitos Não Funcionais
+- Requisitos Não Funcionais
 
 O sistema deve seguir diretrizes de acessibilidade digital (WCAG).
 
