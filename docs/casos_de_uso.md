@@ -1,102 +1,159 @@
-### **Caso de Uso 1 — Login do Usuário**
+Caso de Uso 1 — Login do Usuário
 
-**Ator:** Usuário do sistema  
-**Objetivo:** Realizar login no sistema  
-**Descrição:** O usuário insere seu e-mail e senha para acessar a plataforma.  
+Ator: Usuário do sistema
+Objetivo: Realizar login no sistema
+Descrição: O usuário acessa a plataforma por meio da tela de login.
 
-**Fluxo Principal:**
-1. O usuário acessa a tela de login.  
-2. Digita e-mail e senha.  
-3. Clica em “Entrar”.  
-4. O sistema valida as credenciais e redireciona o usuário para a página inicial.  
+Fluxo Principal:
 
-**Fluxos Alternativos:**
-- Credenciais incorretas: o sistema exibe uma mensagem de erro e solicita nova tentativa.  
+O usuário acessa a tela inicial do sistema.
 
----
+O usuário informa o e-mail.
 
-### **Caso de Uso 2 — Selecionar ou Cadastrar Condição do Aluno**
+O usuário informa a senha.
 
-**Ator:** Usuário do sistema  
-**Objetivo:** Selecionar ou cadastrar a condição do aluno  
-**Descrição:** O usuário informa sua condição (como deficiência visual, auditiva ou motora) para que o sistema adapte a interface e os recursos conforme a necessidade.  
+O usuário clica em “Entrar”.
 
-**Fluxo Principal:**
-1. O usuário acessa a área de perfil.  
-2. Seleciona ou cadastra sua condição.  
-3. O sistema adapta automaticamente as configurações de interface e recursos.  
+O sistema valida os dados e direciona o usuário para a próxima tela.
 
-**Fluxos Alternativos:**
-- Caso o usuário não selecione nenhuma condição, o sistema mantém a interface padrão.  
+Fluxos Alternativos:
 
----
+Dados incorretos: o sistema exibe uma mensagem de erro e solicita nova tentativa.
 
-### **Caso de Uso 3 — Enviar Notas e Avisos**
+Caso de Uso 2 — Selecionar Condição do Aluno
 
-**Ator:** Professor  
-**Objetivo:** Enviar notas e avisos aos alunos  
-**Descrição:** O professor acessa o espaço dedicado no sistema para publicar avisos e notas.  
+Ator: Usuário do sistema
+Objetivo: Selecionar a condição do aluno
+Descrição: O usuário seleciona sua condição conforme apresentado na tela do sistema.
 
-**Fluxo Principal:**
-1. O professor realiza login.  
-2. Acessa a área de “Avisos e Notas”.  
-3. Cria uma nova mensagem e insere o conteúdo.  
-4. Clica em “Publicar”.  
-5. O sistema envia o aviso aos alunos e responsáveis.  
+Fluxo Principal:
 
-**Fluxos Alternativos:**
-- Caso o campo de mensagem esteja vazio, o sistema exibe um aviso de preenchimento obrigatório.  
+O usuário acessa a tela de condição.
 
----
+O usuário seleciona uma das opções disponíveis.
 
-### **Caso de Uso 4 — Criar, Editar e Excluir Cronogramas**
+O usuário confirma a seleção.
 
-**Ator:** Professor  
-**Objetivo:** Gerenciar cronogramas de atividades  
-**Descrição:** O professor cria, edita e exclui cronogramas de provas, atividades e compromissos para manter os alunos informados.  
+O sistema salva a condição escolhida.
 
-**Fluxo Principal:**
-1. O professor acessa a área de cronogramas.  
-2. Cria ou edita um cronograma.  
-3. Define datas, horários e descrições.  
-4. Salva as alterações.  
-5. O sistema atualiza automaticamente as informações para os alunos.  
+Fluxos Alternativos:
 
-**Fluxos Alternativos:**
-- Caso ocorra erro de conexão, o sistema informa que o cronograma não pôde ser salvo.  
+Caso nenhuma condição seja selecionada, o sistema mantém a configuração padrão.
 
----
+Caso de Uso 3 — Enviar Avisos
 
-### **Caso de Uso 5 — Compartilhar Cronogramas**
+Ator: Professor
+Objetivo: Enviar avisos aos alunos
+Descrição: O professor publica avisos por meio da funcionalidade disponível no sistema.
 
-**Ator:** Professor  
-**Objetivo:** Compartilhar cronogramas com o NAPNE e responsáveis autorizados  
-**Descrição:** O professor envia cronogramas de atividades ao NAPNE e responsáveis para acompanhamento dos alunos.  
+Fluxo Principal:
 
-**Fluxo Principal:**
-1. O professor seleciona o cronograma.  
-2. Clica na opção “Compartilhar”.  
-3. Escolhe enviar para NAPNE e/ou responsáveis.  
-4. O sistema disponibiliza o cronograma para visualização.  
+O professor realiza login.
 
-**Fluxos Alternativos:**
-- Caso o compartilhamento falhe, o sistema exibe uma mensagem de erro.  
+O professor acessa a opção de avisos.
 
----
+O professor escreve o aviso.
 
-### **Caso de Uso 6 — Acessibilidade Personalizada**
+O professor clica em “Publicar”.
 
-**Ator:** Aluno com deficiência  
-**Objetivo:** Usar recursos personalizados conforme sua necessidade  
-**Descrição:** O aluno acessa o sistema com recursos específicos de acessibilidade adaptados à sua condição.  
+O sistema disponibiliza o aviso aos alunos.
 
-**Fluxo Principal:**
-1. O aluno realiza login.  
-2. O sistema identifica sua condição cadastrada.  
-3. Ativa automaticamente os recursos personalizados:  
-   - Leitor de tela e navegação por toque (para alunos cegos).  
-   - Legendas e narração de ícones (para alunos surdos).  
-   - Controle por voz (para alunos com dificuldades motoras).  
+Fluxos Alternativos:
 
-**Fluxos Alternativos:**
-- Caso o recurso de acessibilidade falhe, o sistema oferece modo padrão com suporte técnico.  
+Caso o aviso esteja vazio, o sistema solicita o preenchimento do conteúdo.
+
+Caso de Uso 4 — Criar e Editar Cronogramas
+
+Ator: Professor
+Objetivo: Criar e editar cronogramas
+Descrição: O professor gerencia cronogramas conforme apresentado no sistema.
+
+Fluxo Principal:
+
+O professor acessa a área de cronogramas.
+
+O professor cria ou edita um cronograma.
+
+O professor define as informações solicitadas.
+
+O professor salva o cronograma.
+
+O sistema atualiza o cronograma para os alunos.
+
+Fluxos Alternativos:
+
+Caso ocorra erro ao salvar, o sistema informa a falha.
+
+Caso de Uso 5 — Acessibilidade Personalizada
+
+Ator: Aluno
+Objetivo: Utilizar acessibilidade personalizada
+Descrição: O aluno utiliza o sistema com recursos adaptados à condição selecionada.
+
+Fluxo Principal:
+
+O aluno realiza login.
+
+O sistema reconhece a condição cadastrada.
+
+O sistema aplica automaticamente as configurações de acessibilidade.
+
+Fluxos Alternativos:
+
+Caso a adaptação não seja aplicada, o sistema mantém a interface padrão.
+
+Caso de Uso 6 — Elaborar Relatório do Aluno (NAPNE)
+
+Ator: Servidor do NAPNE
+Objetivo: Elaborar relatório de acompanhamento do aluno
+Descrição: O servidor do NAPNE registra o acompanhamento do aluno conforme suas necessidades.
+
+Fluxo Principal:
+
+O servidor do NAPNE realiza login no sistema.
+
+O servidor acessa a área de alunos.
+
+O servidor seleciona um aluno.
+
+O servidor preenche o relatório com as necessidades e acompanhamentos do aluno.
+
+O servidor salva o relatório.
+
+Fluxos Alternativos:
+
+Caso algum campo obrigatório não seja preenchido, o sistema solicita a correção.
+
+Caso de Uso 7 — Publicar Relatório do Aluno (NAPNE)
+
+Ator: Servidor do NAPNE
+Objetivo: Publicar relatório de acompanhamento
+Descrição: O servidor do NAPNE publica o relatório no sistema para consulta.
+
+Fluxo Principal:
+
+O servidor do NAPNE acessa um relatório criado.
+
+O servidor seleciona a opção “Publicar”.
+
+O sistema disponibiliza o relatório no ambiente do NAPNE.
+
+Fluxos Alternativos:
+
+Caso a publicação falhe, o sistema exibe uma mensagem de erro.
+
+Caso de Uso 8 — Visualizar Acompanhamento do Aluno (NAPNE)
+
+Ator: Servidor do NAPNE
+Objetivo: Visualizar o acompanhamento do aluno
+Descrição: O servidor do NAPNE visualiza os relatórios e informações registradas do aluno.
+
+Fluxo Principal:
+
+O servidor do NAPNE acessa a área do aluno.
+
+O sistema exibe os relatórios e registros de acompanhamento.
+
+Fluxos Alternativos:
+
+Caso não existam relatórios, o sistema informa que não há registros disponíveis.
