@@ -15,11 +15,9 @@ História 3 - Utilização de Recursos Personalizados
 -A adaptação permanece ativa em todos os módulos até que o usuário altere sua condição.
 -Caso a adaptação não esteja disponível, exibe mensagem: “Recurso em desenvolvimento”.
 
-História 4 - Visualização de Cronogramas para Usuário do NAPNE
--O usuário consegue compartilhar cronogramas com responsáveis e/ou equipe NAPNE através de uma opção “compartilhar”.
--O sistema permite configurar quais responsáveis terão acesso a cada cronograma.
--Caso o compartilhamento falhe, exibe mensagem: “Não foi possível compartilhar. Tente novamente.”
+História 4 - Visualização para Usuário do NAPNE
+- O usuário Napne tem acesso aos dados do alunos para facilitar o acompanhamento e suas necessidades
 
 História 5 - Área Dedicada para Professores
--O professor consegue postar notas e avisos no espaço dedicado.
--Os alunos e responsáveis visualizam notas e avisos publicados em tempo real.
+-O professor consegue postar datas de trabalhos e avisos no espaço dedicado.
+-Os alunos e Napne visualizam as novas datas e avisos publicados em tempo real.
